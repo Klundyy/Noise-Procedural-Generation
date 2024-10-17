@@ -55,9 +55,6 @@ class noiseProcGen extends Phaser.Scene {
             this.generateMap(this.isInverse);
         }
     }
-    getRandomInt(max) {
-        return Math.floor(Math.random() * max)
-    }
     generateMap(isInverse){
         let rndlvl = []
         let layerlvl = []
